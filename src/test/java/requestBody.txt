@@ -1,0 +1,73 @@
+{
+	"app": {
+		"bundle": "com.loopme.tester",
+		"name": "LoopMe Tester",
+		"version": "2.0329",
+		"id": "7aff88e998"
+	},
+	"id": "29eb25a0-1344-4efc-811c-4d1b75e30a72",
+	"device": {
+		"devicetype": 4,
+		"w": 1080,
+		"h": 1920,
+		"js": 1,
+		"osv": "24",
+		"connectiontype": 2,
+		"os": "android",
+		"language": "en",
+		"make": "samsung",
+		"hwv": "samsungexynos7870",
+		"ua": "Mozilla\/5.0 (Linux; Android 7.0; SM-J730FM Build\/NRD90M; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/65.0.3325.109 Mobile Safari\/537.36",
+		"model": "SM-J730FM",
+		"ext": {
+			"timezone": "Eastern European Standard Time",
+			"phonename": "KRfh5tNXbcaQQ1VxQEsRDA%3D%3D",
+			"wifiname": "LoopMe-5G-4.2",
+			"orientation": "l",
+			"chargelevel": "99",
+			"plugin": -1
+		}
+	},
+	"tmax": 250,
+	"bcat": ["IAB25-3", "IAB25", "IAB26"],
+	"imp": [{
+		"secure": 1,
+		"displaymanagerver": "0",
+		"id": "1522743004682",
+		"banner": {
+			"api": [5, 2],
+			"w": 411,
+			"h": 731,
+			"id": 1,
+			"battr": [3, 8]
+		},
+		"video": {
+			"api": [5, 2],
+			"skip": 1,
+			"protocols": [2, 3, 7, 8],
+			"maxduration": 1800,
+			"battr": [3, 8],
+			"w": 411,
+			"h": 731,
+			"linearity": 1,
+			"boxingallowed": 1,
+			"mimes": ["video\/mp4"],
+			"startdelay": 1,
+			"delivery": [2],
+			"sequence": 1,
+			"minduration": 5,
+			"maxbitrate": 1024
+		},
+		"metric": [{
+			"type": "viewability",
+			"vendor": "moat"
+		}],
+		"ext": {
+			"it": "normal",
+			"supported_techs": ["HTML - for usual MP4 video", "VAST2", "VAST3", "VAST4", "VPAID1", "VPAID2", "MRAID2", "V360"]
+		},
+		"bidfloor": 0,
+		"displaymanager": "LOOPME_SDK",
+		"instl": 1
+	}]
+}
